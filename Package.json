@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-checker-bot",
+  "version": "1.0.0",
+  "description": "Ultra Fast WhatsApp Number Checker Bot for Telegram",
+  "main": "checker_super_fast.js",
+  "scripts": {
+    "start": "node checker_super_fast.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "telegraf": "^4.15.3",
+    "qrcode": "^1.5.3",
+    "pino": "^8.17.2",
+    "sharp": "^0.33.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
