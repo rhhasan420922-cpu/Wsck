@@ -277,7 +277,7 @@ bot.on('text', async (ctx) => {
   let msg = '';
 
   if (registered.length > 0) {
-    msg += `🚫 Registered (${registered.length})\n`;
+    msg += `🐸 Kop (${registered.length})\n`;
     msg += registered.join('\n');
     msg += '\n\n';
   }
