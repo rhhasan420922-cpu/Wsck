@@ -1,19 +1,23 @@
 {
-  "name": "whatsapp-checker-bot",
+  "name": "simple-wa-checker",
   "version": "1.0.0",
-  "description": "Ultra Fast WhatsApp Number Checker Bot for Telegram",
-  "main": "checker_super_fast.js",
+  "description": "Simple WhatsApp Checker Bot",
+  "main": "simple_wa_checker.js",
   "scripts": {
-    "start": "node checker_super_fast.js"
+    "start": "node simple_wa_checker.js"
   },
+  "keywords": [
+    "whatsapp",
+    "telegram",
+    "baileys",
+    "checker"
+  ],
+  "author": "Hasan",
+  "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.5",
-    "telegraf": "^4.15.3",
-    "qrcode": "^1.5.3",
-    "pino": "^8.17.2",
-    "sharp": "^0.33.2"
-  },
-  "engines": {
-    "node": ">=20.18.0"
+    "@whiskeysockets/baileys": "^6.7.18",
+    "pino": "^9.3.2",
+    "qrcode": "^1.5.4",
+    "telegraf": "^4.16.3"
   }
 }
